@@ -412,7 +412,7 @@ function backupDatabase(transporter) {
       // Send email notification after the backup is completed
       const mailOptions = {
         from: "gibson.25cs@licet.ac.in",
-        to: "gibson.25cs@licet.ac.in",
+        to: "ashwin.23cs@licet.ac.in",
         subject: "Database Backup Completed",
         text: "The database backup process has been completed successfully.",
       };

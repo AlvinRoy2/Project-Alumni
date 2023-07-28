@@ -413,6 +413,6 @@ require("./public/js/db.js");
 //console.log(__dirname);
 
 //Scheduler backup
-cron.schedule("46 23 * * *", () => {
+cron.schedule("38 22 * * *", () => {
   backupDatabase(transporter);
 });
